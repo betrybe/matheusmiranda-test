@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+@media ( max-width : 1080px ) {
+
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media ( max-width : 720px ) {
+
+  html {
+    font-size: 93.75%;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+a, a:hover {
+  color: inherit;
+  outline: 0;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* stylelint-disable-next-line */
+input[ type = 'number' ] {
+  appearance: textfield;
+}
+

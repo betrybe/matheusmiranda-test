@@ -1,0 +1,12 @@
+body {
+  background: #eaf2f9;
+  color: #000814;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container_box {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
