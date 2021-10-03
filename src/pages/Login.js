@@ -1,9 +1,11 @@
 import React from 'react';
 
-class Login extends React.Component {
-  render() {
-    return <div>Login</div>;
-  }
+import Form from '../components/LoginForm';
+
+function Login() {
+  return (
+    <Form />
+  );
 }
 
 export default Login;
