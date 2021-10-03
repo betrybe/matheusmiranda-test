@@ -1,0 +1,77 @@
+.formwallet-wrapper {
+  background-color: #262c36;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.formwallet {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1648px;
+
+}
+
+.formwallet label {
+  margin: 0;
+}
+
+.formwallet input, .formwallet select {
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.formwallet select {
+  margin: 0 5px;
+}
+
+.delete-btn_wrapper {
+  background-color: #dd3643;
+  border-radius: 5px;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.delete-btn_wrapper:hover {
+  filter: brightness(80%);
+}
+
+.delete-btn {
+  height: 16px;
+  width: 16px;
+}
+
+
+@media ( max-width : 1368px ) {
+
+  .formwallet input, .formwallet select {
+    width: 150px;
+  }
+
+
+}
+
+@media ( max-width : 920px ) {
+
+  .formwallet {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+
+  .formwallet .btn-primary {
+    margin: 10px 0;
+  }
+
+  .formwallet input, .formwallet select {
+    width: 100%;
+  }
+
+  .formwallet label {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
