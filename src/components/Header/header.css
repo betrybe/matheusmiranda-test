@@ -1,0 +1,37 @@
+.header-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1270px;
+  padding: 20px;
+  width: 100%;
+}
+
+.credential-info {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.credential-info > p {
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.credential-info p:first-of-type {
+  margin-right: 40px;
+}
+
+.company-logo {
+  width: 128px;
+}
+
+@media ( min-width : 1368px ) {
+
+  .header-wrapper {
+    max-width: 1648px;
+  }
+
+}
